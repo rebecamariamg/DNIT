@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icons/logo_dnit.svg" type="image/x-icon">
+    <title>DNIT</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<div class= "fluid-container">
+
+    <header>
+        <nav class="navbar navbar-light navbar-custom ">
+            <a class="navbar-brand">
+                <img id="logo" src="icons/logo_dnit.svg" alt="Logo DNIT" class="img-fluid" w-50>
+            </a>
+            <button type="button" class="btn btn-outline-secondary btn-custom">Página principal</button>
+        </nav>
+    </header>
+
+    <main>
+
+        <!--  Conteudo da pagina -->
+        <div class="p-3">
+
+            <!--  cards-da-pagina -->
+            <div class="row">
+
+                <div class="col-md-3 mb-3">
+                    <table id="table-nodes" class="table table-striped table-sm">
+                        <thead class="table-custom">
+                            <tr>
+                                <th scope="col">Item</th>
+                                <th scope="col">Descrição</th>
+                                <th scope="col">Status</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr class="table">
+                                <th scope="row">1</th>
+                                <td>Cras justo odio</td>
+                                <td>Ativo</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Dapibus ac facilisis in</td>
+                                <td>Inativo</td>
+                            </tr>
+                            <tr class="table">
+                                <th scope="row">3</th>
+                                <td>Morbi leo risus</td>
+                                <td>Ativo</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">4</th>
+                                <td>Porta ac consectetur ac</td>
+                                <td>Inativo</td>
+                            </tr>
+                            <tr class="table">
+                                <th scope="row">5</th>
+                                <td>Vestibulum at eros</td>
+                                <td>Ativo</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                
+                <div class="col-md-6 mb-3">
+                    <table id="table-downloads" class="table table-striped table-sm">
+                        <thead class="table-custom">
+                            <tr>
+                                <th scope="col">Item</th>
+                                <th scope="col">Descrição</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="table">
+                                <th scope="row">1</th>
+                                <td>Cras justo odio</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Dapibus ac facilisis in</td>
+                            </tr>
+                            <tr class="table">
+                                <th scope="row">3</th>
+                                <td>Morbi leo risus</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">4</th>
+                                <td>Porta ac consectetur ac</td>
+                            </tr>
+                            <tr class="table">
+                                <th scope="row">5</th>
+                                <td>Vestibulum at eros</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="col-md-3 mb-3">
+                    <div id="div-resource-charts" class="card" >
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            
+
+
+            
+            <!-- cards-inferior-da-pagina -->
+            <div class="row">
+                <div class="col-12">
+                    <table id="table-logs" class="table table-striped table-sm">
+                        <thead class="table-custom">
+                            <tr>
+                                <th scope="col">Item</th>
+                                <th scope="col">Descrição</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="table">
+                                <th scope="row">1</th>
+                                <td>Cras justo odio</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Dapibus ac facilisis in</td>
+                            </tr>
+                            <tr class="table">
+                                <th scope="row">3</th>
+                                <td>Morbi leo risus</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">4</th>
+                                <td>Porta ac consectetur ac</td>
+                            </tr>
+                            <tr class="table">
+                                <th scope="row">5</th>
+                                <td>Vestibulum at eros</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+
+    <footer>
+
+    </footer>
+</div>
+
+<script src="js/TabelaLogs.js"></script>
+<script src="js/TabelaNos.js"></script>
+<script src="js/TabelaDownloads.js"></script>
+<script src="js/fetchDados.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
