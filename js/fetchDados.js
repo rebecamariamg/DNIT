@@ -18,18 +18,18 @@ function buscaDadosNovos() {
             },
             {
                 "status": {
-                    "avaliable": true,
+                    "avaliable": false,
                     "nodeNumber": 2,
-                    "running": false,
+                    "running": true,
                     "stop": false
                 }
             },
             {
                 "status": {
-                    "avaliable": true,
+                    "avaliable": false,
                     "nodeNumber": 3,
-                    "running": false,
-                    "stop": false
+                    "running": true,
+                    "stop": true
                 }
             },
             {
